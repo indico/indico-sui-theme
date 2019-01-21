@@ -86,11 +86,11 @@
 @infoTextColor          : @blue;
 
 /* Warning */
-@warningColor           : @lightOrange;
+@warningColor           : @orange;
 @warningBorderColor     : @lightOrange;
 @warningBackgroundColor : #FFFAF3;
-@warningHeaderColor     : @orange;
-@warningTextColor       : @orange;
+@warningHeaderColor     : darken(@orange, 10%);
+@warningTextColor       : darken(@orange, 10%);
 
 /*-------------------
         Paths
