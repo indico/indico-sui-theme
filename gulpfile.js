@@ -41,8 +41,9 @@ async function setup() {
         src('theme/indico/**/*'),
         dest('build/themes/indico')
     );
+    // These overrides are needed
     await pipe(
-        src('build/src/themes/default/elements/icon.overrides'),
+        src('build/src/themes/default/elements/{icon,divider,step}.overrides'),
         dest('build/themes/indico/elements/')
     );
     await pipe(
@@ -56,7 +57,7 @@ function _build() {
 }
 
 async function _watch() {
-    return watch('theme/**/*.(config|variables|overrides)', async () => {
+    return watch('theme/**/*.{config,variables,overrides}', async () => {
         await _build();
     });
 }
