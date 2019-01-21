@@ -6,6 +6,6 @@ This is the [Semantic UI](https://semantic-ui.com/) theme used in [Indico](https
 
 ```
 $ npm install -g gulp-cli
-$ npm install
+$ npm install --ignore-scripts
 $ gulp build
 ```
