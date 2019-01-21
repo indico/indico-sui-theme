@@ -5889,7 +5889,7 @@ a.ui.inverted.grey.header:hover {
 @font-face {
   font-family: 'Icons';
   src: url("./themes/default/assets/fonts/icons.eot");
-  src: url("./themes/default/assets/fonts/icons.woff2") format('woff2'), url("./themes/default/assets/fonts/icons.woff") format('woff'), url("./themes/default/assets/fonts/icons.ttf") format('truetype'), url("./themes/default/assets/fonts/icons.svg#icons") format('svg');
+  src: url("./themes/default/assets/fonts/icons.eot?#iefix") format('embedded-opentype'), url("./themes/default/assets/fonts/icons.woff2") format('woff2'), url("./themes/default/assets/fonts/icons.woff") format('woff'), url("./themes/default/assets/fonts/icons.ttf") format('truetype'), url("./themes/default/assets/fonts/icons.svg#icons") format('svg');
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -11168,7 +11168,7 @@ i.icon.youtube.play:before {
 @font-face {
   font-family: 'outline-icons';
   src: url("./themes/default/assets/fonts/outline-icons.eot");
-  src: url("./themes/default/assets/fonts/outline-icons.woff2") format('woff2'), url("./themes/default/assets/fonts/outline-icons.woff") format('woff'), url("./themes/default/assets/fonts/outline-icons.ttf") format('truetype'), url("./themes/default/assets/fonts/outline-icons.svg#icons") format('svg');
+  src: url("./themes/default/assets/fonts/outline-icons.eot?#iefix") format('embedded-opentype'), url("./themes/default/assets/fonts/outline-icons.woff2") format('woff2'), url("./themes/default/assets/fonts/outline-icons.woff") format('woff'), url("./themes/default/assets/fonts/outline-icons.ttf") format('truetype'), url("./themes/default/assets/fonts/outline-icons.svg#icons") format('svg');
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -11674,7 +11674,7 @@ i.icon.star.empty:before {
 @font-face {
   font-family: 'brand-icons';
   src: url("./themes/default/assets/fonts/brand-icons.eot");
-  src: url("./themes/default/assets/fonts/brand-icons.woff2") format('woff2'), url("./themes/default/assets/fonts/brand-icons.woff") format('woff'), url("./themes/default/assets/fonts/brand-icons.ttf") format('truetype'), url("./themes/default/assets/fonts/brand-icons.svg#icons") format('svg');
+  src: url("./themes/default/assets/fonts/brand-icons.eot?#iefix") format('embedded-opentype'), url("./themes/default/assets/fonts/brand-icons.woff2") format('woff2'), url("./themes/default/assets/fonts/brand-icons.woff") format('woff'), url("./themes/default/assets/fonts/brand-icons.ttf") format('truetype'), url("./themes/default/assets/fonts/brand-icons.svg#icons") format('svg');
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -24381,7 +24381,7 @@ Floated Menu / Item
 
 .ui.warning.message {
   background-color: #FFFAF3;
-  color: #ffbb33;
+  color: #cc6d00;
 }
 
 .ui.warning.message,
@@ -24391,7 +24391,7 @@ Floated Menu / Item
 }
 
 .ui.warning.message .header {
-  color: #FF8800;
+  color: #cc6d00;
 }
 
 /* Error */
@@ -24993,7 +24993,7 @@ Floated Menu / Item
 .ui.table tr.warning,
 .ui.table td.warning {
   background: #FFFAF3 !important;
-  color: #ffbb33 !important;
+  color: #cc6d00 !important;
 }
 
 /*--------------
@@ -25181,7 +25181,7 @@ Floated Menu / Item
 .ui.table tr td.selectable.warning:hover,
 .ui.selectable.table tr:hover td.warning {
   background: #fff4e4 !important;
-  color: #ffb624 !important;
+  color: #bd6500 !important;
 }
 
 .ui.selectable.table tr.active:hover,
@@ -33699,7 +33699,7 @@ a.ui.nag {
 ---------------*/
 
 .ui.progress.warning .bar {
-  background-color: #ffbb33 !important;
+  background-color: #FF8800 !important;
 }
 
 .ui.progress.warning .bar,
@@ -33709,7 +33709,7 @@ a.ui.nag {
 }
 
 .ui.progress.warning > .label {
-  color: #FF8800;
+  color: #cc6d00;
 }
 
 /*--------------
@@ -33821,7 +33821,7 @@ a.ui.nag {
 }
 
 .ui.inverted.progress.warning > .label {
-  color: #ffbb33;
+  color: #FF8800;
 }
 
 .ui.inverted.progress.error > .label {
