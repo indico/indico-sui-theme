@@ -90,7 +90,7 @@
 @warningBorderColor     : @lightOrange;
 @warningBackgroundColor : #FFFAF3;
 @warningHeaderColor     : @orange;
-@warningTextColor       : @lightOrange;
+@warningTextColor       : @orange;
 
 /*-------------------
         Paths
