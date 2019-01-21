@@ -9,7 +9,8 @@
   },
   "devDependencies": {
     "gulp": "^4.0.0",
-    "vinyl-fs": "^3.0.3",
-    "semantic-ui": "^2.4.1"
+    "gulp-watch": "^5.0.1",
+    "semantic-ui": "^2.4.1",
+    "vinyl-fs": "^3.0.3"
   }
 }
