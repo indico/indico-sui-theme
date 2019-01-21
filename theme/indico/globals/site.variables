@@ -1,0 +1,100 @@
+/*-------------------
+       Fonts
+--------------------*/
+
+@fontName          : 'Muli';
+@fontSmoothing     : antialiased;
+
+@headerFont        : @fontName, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@pageFont          : @fontName, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+
+@googleFontName    : @fontName;
+@importGoogleFonts : true;
+@googleFontSizes   : '400,700,400italic,700italic';
+@googleSubset      : 'latin';
+
+@googleProtocol    : 'https://';
+@googleFontRequest : '@{googleFontName}:@{googleFontSizes}&subset=@{googleSubset}';
+
+
+@bold              : medium;
+@normal            : normal;
+
+/*-------------------
+      Site Colors
+--------------------*/
+
+/*---  Colors  ---*/
+@red              : #CC0000;
+@orange           : #FF8800;
+@yellow           : #ffcf00;
+@green            : #00C851;
+@teal             : #45ba97;
+@blue             : #0099CC;
+@purple           : #6e5494;
+@grey             : #bbbbbb;
+@black            : #31393c;
+
+/*---  Light Colors  ---*/
+@lightRed         : #ff4444;
+@lightOrange      : #ffbb33;
+@lightYellow      : #ffffa5;
+@lightGreen       : #22f865;
+@lightTeal        : #7dcfb6;
+@lightBlue        : #33b5e5;
+@lightGrey        : #dfdfdf;
+@lightBlack       : #424b54;
+
+/*---   Neutrals  ---*/
+@fullBlack        : #171a1c;
+@offWhite         : #f9f9f9;
+@darkWhite        : #F3F4F5;
+@midWhite         : #dfdfdf;
+@white            : #FFFFFF;
+
+/*--- Colored Backgrounds ---*/
+@redBackground    : #f2dede;
+@yellowBackground : #ffe6ba;
+@greenBackground  : #def2de;
+@blueBackground   : #edf3fd;
+
+/*--- Colored Text ---*/
+
+/*-------------------
+    Emotive Colors
+--------------------*/
+
+/* Positive */
+@positiveColor           : @green;
+@positiveBackgroundColor : #FCFFF5;
+@positiveBorderColor     : @green;
+@positiveHeaderColor     : @green;
+@positiveTextColor       : @green;
+
+/* Negative */
+@negativeColor           : @red;
+@negativeBackgroundColor : #FFF6F6;
+@negativeBorderColor     : @red;
+@negativeHeaderColor     : @red;
+@negativeTextColor       : @red;
+
+/* Info */
+@infoColor              : @blue;
+@infoBackgroundColor    : #F8FFFF;
+@infoBorderColor        : @blue;
+@infoHeaderColor        : @blue;
+@infoTextColor          : @blue;
+
+/* Warning */
+@warningColor           : @lightOrange;
+@warningBorderColor     : @lightOrange;
+@warningBackgroundColor : #FFFAF3;
+@warningHeaderColor     : @orange;
+@warningTextColor       : @lightOrange;
+
+/*-------------------
+        Paths
+--------------------*/
+
+/* For source only. Modified in gulp for dist */
+@fontPath  : './themes/default/assets/fonts';
