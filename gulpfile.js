@@ -47,6 +47,10 @@ async function setup() {
         dest('build/themes/indico/elements/')
     );
     await pipe(
+        src('build/src/themes/default/modules/checkbox.overrides'),
+        dest('build/themes/indico/modules/')
+    );
+     await pipe(
         src('semantic.json'),
         symlink('build/')
     );
