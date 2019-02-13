@@ -3353,9 +3353,9 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 .ui.inverted.red.buttons .button,
 .ui.inverted.red.button {
   background-color: transparent;
-  -webkit-box-shadow: 0px 0px 0px 2px #ff4444 inset !important;
-  box-shadow: 0px 0px 0px 2px #ff4444 inset !important;
-  color: #ff4444;
+  -webkit-box-shadow: 0px 0px 0px 2px #f91f1f inset !important;
+  box-shadow: 0px 0px 0px 2px #f91f1f inset !important;
+  color: #f91f1f;
 }
 
 .ui.inverted.red.buttons .button:hover,
@@ -3373,22 +3373,22 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 
 .ui.inverted.red.buttons .button:hover,
 .ui.inverted.red.button:hover {
-  background-color: #ff2a2a;
+  background-color: #fe0000;
 }
 
 .ui.inverted.red.buttons .button:focus,
 .ui.inverted.red.button:focus {
-  background-color: #ff1b1b;
+  background-color: #ef0000;
 }
 
 .ui.inverted.red.buttons .active.button,
 .ui.inverted.red.active.button {
-  background-color: #ff2a2a;
+  background-color: #fe0000;
 }
 
 .ui.inverted.red.buttons .button:active,
 .ui.inverted.red.button:active {
-  background-color: #ff1111;
+  background-color: #df0606;
 }
 
 /* Inverted Basic */
@@ -3405,33 +3405,33 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 .ui.inverted.red.basic.buttons .button:hover,
 .ui.inverted.red.buttons .basic.button:hover,
 .ui.inverted.red.basic.button:hover {
-  -webkit-box-shadow: 0px 0px 0px 2px #ff2a2a inset !important;
-  box-shadow: 0px 0px 0px 2px #ff2a2a inset !important;
-  color: #ff4444 !important;
+  -webkit-box-shadow: 0px 0px 0px 2px #fe0000 inset !important;
+  box-shadow: 0px 0px 0px 2px #fe0000 inset !important;
+  color: #f91f1f !important;
 }
 
 .ui.inverted.red.basic.buttons .button:focus,
 .ui.inverted.red.basic.buttons .button:focus,
 .ui.inverted.red.basic.button:focus {
-  -webkit-box-shadow: 0px 0px 0px 2px #ff1b1b inset !important;
-  box-shadow: 0px 0px 0px 2px #ff1b1b inset !important;
-  color: #ff4444 !important;
+  -webkit-box-shadow: 0px 0px 0px 2px #ef0000 inset !important;
+  box-shadow: 0px 0px 0px 2px #ef0000 inset !important;
+  color: #f91f1f !important;
 }
 
 .ui.inverted.red.basic.buttons .active.button,
 .ui.inverted.red.buttons .basic.active.button,
 .ui.inverted.red.basic.active.button {
-  -webkit-box-shadow: 0px 0px 0px 2px #ff2a2a inset !important;
-  box-shadow: 0px 0px 0px 2px #ff2a2a inset !important;
-  color: #ff4444 !important;
+  -webkit-box-shadow: 0px 0px 0px 2px #fe0000 inset !important;
+  box-shadow: 0px 0px 0px 2px #fe0000 inset !important;
+  color: #f91f1f !important;
 }
 
 .ui.inverted.red.basic.buttons .button:active,
 .ui.inverted.red.buttons .basic.button:active,
 .ui.inverted.red.basic.button:active {
-  -webkit-box-shadow: 0px 0px 0px 2px #ff1111 inset !important;
-  box-shadow: 0px 0px 0px 2px #ff1111 inset !important;
-  color: #ff4444 !important;
+  -webkit-box-shadow: 0px 0px 0px 2px #df0606 inset !important;
+  box-shadow: 0px 0px 0px 2px #df0606 inset !important;
+  color: #f91f1f !important;
 }
 
 /*--- Teal ---*/
@@ -5430,11 +5430,11 @@ a.ui.red.header:hover {
 /* Inverted */
 
 .ui.inverted.red.header {
-  color: #ff4444 !important;
+  color: #f91f1f !important;
 }
 
 a.ui.inverted.red.header:hover {
-  color: #ff2a2a !important;
+  color: #fe0000 !important;
 }
 
 /*--- Orange ---*/
@@ -6108,7 +6108,7 @@ i.red.icon {
 }
 
 i.inverted.red.icon {
-  color: #ff4444 !important;
+  color: #f91f1f !important;
 }
 
 i.inverted.bordered.red.icon,
@@ -28791,7 +28791,7 @@ a.ui.card:hover,
 .ui.inverted.red.statistics .statistic > .value,
 .ui.statistics .inverted.red.statistic > .value,
 .ui.inverted.red.statistic > .value {
-  color: #ff4444;
+  color: #f91f1f;
 }
 
 .ui.inverted.orange.statistics .statistic > .value,
@@ -33931,7 +33931,7 @@ a.ui.nag {
 }
 
 .ui.red.inverted.progress .bar {
-  background-color: #ff4444;
+  background-color: #f91f1f;
 }
 
 /* Orange */

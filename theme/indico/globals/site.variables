@@ -36,7 +36,7 @@
 @black            : #31393c;
 
 /*---  Light Colors  ---*/
-@lightRed         : #ff4444;
+@lightRed         : #f91f1f;
 @lightOrange      : #ffbb33;
 @lightYellow      : #ffffa5;
 @lightGreen       : #22f865;
