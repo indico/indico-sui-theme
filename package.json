@@ -1,6 +1,6 @@
 {
   "name": "indico-sui-theme",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Indico Theme for Semantic UI",
   "main": "index.js",
   "author": "Indico Team <indico-team@cern.ch>",
