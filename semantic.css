@@ -8,7 +8,6 @@
  * http://opensource.org/licenses/MIT
  *
  */
-@import url('https://fonts.googleapis.com/css?family=Muli:400,700,400italic,700italic&subset=latin');
 /*!
  * # Semantic UI 2.4.2 - Reset
  * http://github.com/semantic-org/semantic-ui/
@@ -182,6 +181,11 @@ a:hover {
   color: rgba(0, 0, 0, 0.87);
 }
 
+::-moz-selection {
+  background-color: #CCE2FF;
+  color: rgba(0, 0, 0, 0.87);
+}
+
 ::selection {
   background-color: #CCE2FF;
   color: rgba(0, 0, 0, 0.87);
@@ -191,6 +195,12 @@ a:hover {
 
 textarea::-webkit-selection,
 input::-webkit-selection {
+  background-color: rgba(100, 100, 100, 0.4);
+  color: rgba(0, 0, 0, 0.87);
+}
+
+textarea::-moz-selection,
+input::-moz-selection {
   background-color: rgba(100, 100, 100, 0.4);
   color: rgba(0, 0, 0, 0.87);
 }
@@ -246,6 +256,34 @@ body .ui.inverted::-webkit-scrollbar-thumb:window-inactive {
 
 body .ui.inverted::-webkit-scrollbar-thumb:hover {
   background: rgba(255, 255, 255, 0.35);
+}
+
+@font-face {
+  font-family: 'Muli';
+  src: local('Muli Bold'), local('Muli-Bold'), url('./theme/indico/assets/fonts/subset-Muli-Bold.woff2') format('woff2'), url('./theme/indico/assets/fonts/subset-Muli-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muli';
+  src: local('Muli Bold Italic'), local('Muli-BoldItalic'), url('./theme/indico/assets/fonts/subset-Muli-BoldItalic.woff2') format('woff2'), url('./theme/indico/assets/fonts/subset-Muli-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Muli';
+  src: local('Muli Italic'), local('Muli-Italic'), url('./theme/indico/assets/fonts/subset-Muli-Italic.woff2') format('woff2'), url('./theme/indico/assets/fonts/subset-Muli-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Muli';
+  src: local('Muli Regular'), local('Muli-Regular'), url('./theme/indico/assets/fonts/subset-Muli-Regular.woff2') format('woff2'), url('./theme/indico/assets/fonts/subset-Muli-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 /*!
  * # Semantic UI 2.4.2 - Button

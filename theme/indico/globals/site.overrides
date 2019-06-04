@@ -1,0 +1,38 @@
+// Font is from Google Fonts: https://fonts.google.com/specimen/Muli
+// Converted using https://transfonter.org/ (latin-ext)
+
+@font-face {
+  font-family: 'Muli';
+  src: local('Muli Bold'), local('Muli-Bold'),
+       url('./theme/indico/assets/fonts/subset-Muli-Bold.woff2') format('woff2'),
+       url('./theme/indico/assets/fonts/subset-Muli-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muli';
+  src: local('Muli Bold Italic'), local('Muli-BoldItalic'),
+       url('./theme/indico/assets/fonts/subset-Muli-BoldItalic.woff2') format('woff2'),
+       url('./theme/indico/assets/fonts/subset-Muli-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Muli';
+  src: local('Muli Italic'), local('Muli-Italic'),
+       url('./theme/indico/assets/fonts/subset-Muli-Italic.woff2') format('woff2'),
+       url('./theme/indico/assets/fonts/subset-Muli-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Muli';
+  src: local('Muli Regular'), local('Muli-Regular'),
+       url('./theme/indico/assets/fonts/subset-Muli-Regular.woff2') format('woff2'),
+       url('./theme/indico/assets/fonts/subset-Muli-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
