@@ -1,14 +1,13 @@
 {
   "name": "indico-sui-theme",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Indico Theme for Semantic UI",
   "main": "index.js",
   "author": "Indico Team <indico-team@cern.ch>",
   "license": "MIT",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "gulp": "^4.0.0",
+    "gulp": "^3.9.1",
     "gulp-watch": "^5.0.1",
     "semantic-ui": "^2.4.1",
     "vinyl-fs": "^3.0.3"
