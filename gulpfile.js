@@ -46,7 +46,7 @@ async function setup() {
         dest('build/themes/indico/elements/')
     );
     await pipe(
-        src('build/src/themes/default/modules/{checkbox,dropdown,accordion,transition}.overrides'),
+        src('build/src/themes/default/modules/{checkbox,dropdown,accordion,transition,rating}.overrides'),
         dest('build/themes/indico/modules/')
     );
     await pipe(
