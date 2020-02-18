@@ -1,2 +1,6 @@
 build
 .idea/
+Dockerfile
+Makefile
+build.sh
+.dockerignore
