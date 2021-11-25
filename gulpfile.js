@@ -42,7 +42,7 @@ async function setup() {
     );
     // These overrides are needed
     await pipe(
-        src('build/src/themes/default/elements/{icon,divider,step}.overrides'),
+        src('build/src/themes/default/elements/{icon,flag,divider,step}.overrides'),
         dest('build/themes/indico/elements/')
     );
     await pipe(
